@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/family9"
+        id="@+id/tab_proches"
+        title="Family" />
+    <tab
+        icon="@drawable/house4"
+        id="@+id/tab_map"
+        title="Home" />
+    <tab
+        icon="@drawable/pills1"
+        id="@+id/tab_meds"
+        title="Drugs" />
+    <tab
+        icon="@drawable/ic_admin"
+        id="@+id/tab_responsable"
+        title="Settings" />
+
+</tabs>

@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">AlzheimerMate</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_navigation_drawer">Where am I ? </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="permission_refused">Permission was not granted</string>
+    <string name="permission_request_title">Special Permission Request</string>
+    <string name="app_permission_notice">This permission request is very important to your app functionality. If it is not granted your app might not work the way it is intended</string>
+    <string name="failed_draw">Empty line path return</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_responsable">ResponsableActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_text">Google Sign-In</string>
+
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="loading">Loading…</string>
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="refresh_token">Get Fresh Token</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">Google Logo</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">Contacts access is needed in order to retrieve your email address.</string>
+
+    <!-- Activity Names and Descriptions -->
+    <string name="name_sign_in_activity">SignInActivity</string>
+    <string name="desc_sign_in_activity">Signing in, signing out, and revoking access.</string>
+    <string name="desc_sign_in_activity_scopes">Signing in, signing out, and revoking access with Google Drive permissions.</string>
+
+    <string name="name_id_token_activity">IdTokenActivity</string>
+    <string name="desc_id_token_activity">Retrieving an ID Token for the user.</string>
+
+    <string name="desc_auth_code_activity">Demonstrate retrieving an auth code for authorizing your server.</string>
+    <string name="name_auth_code_activity">ServerAuthCodeActivity</string>
+
+    <string name="desc_rest_activity">Demonstrate using Google Sign In with a Google REST API</string>
+    <string name="name_rest_activity">RestApiActivity</string>
+
+    <!-- Messages for the Rest API activity -->
+    <string name="connections_fmt">Connections: %1$s</string>
+    <string name="msg_contacts_failed">Get contacts failed.</string>
+
+    <!-- TODO(user): replace with your real server client ID -->
+    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
+         from https://console.developers.google.com/ -->
+    <string name="server_client_id">Test</string>
+    <string name="add_apicture">Add a picture</string>
+    <string name="who_is_he_to_the_patient">who is he to the patient</string>
+    <string name="save">Save</string>
+    <string name="time_when_to_take_it_hh_mm_ss">Number of hours between medication taking </string>
+    <string name="name_of_the_medicine">Name of the medicine</string>
+    <string name="how_many_times_per_day">How many times per day</string>
+    <string name="addp">add_a_picture</string>
+    <string name="nb_prises">nb prises</string>
+    <string name="heures">heures</string>
+    <string name="picture_of_the_medicine">Picture of the medicine</string>
+    <string name="nom">Nom</string>
+    <string name="member">picture of the_Family Member</string>
+    <string name="profil_picture">profil picture</string>
+    <string name="family_tree_logo">family tree logo</string>
+    <string name="bg_header">bg_header</string>
+    <string name="email_logo">email_logo</string>
+    <string name="phone_logo">phone_logo</string>
+    <string name="login_image">login_image</string>
+    <string name="lastname_of_the_person">LastName of the person</string>
+    <string name="firstname_of_the_person">FirstName of the person</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="thumbmail">thumbmail</string>
+    <string name="enter_address_city_or_zip_code">Enter Address, City or Zip Code</string>
+    <string name="i_took_my_drugs">I took my drugs</string>
+    <string name="nurse_section">Nurse Section</string>
+    <string name="nurse_signup">Nurse SignUp</string>
+    <string name="username">Username</string>
+    <string name="email_of_the_person_with_alzheimer_s">Email of the person with Alzheimer</string>
+    <string name="signup">Sign Up</string>
+    <string name="no_account_yet_create_one">No account yet? Create one!</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!-- <item android:title="People i trust">
+             <menu>-->
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/locatio"
+            android:title="Where am i?" />
+
+        <item
+            android:id="@+id/nav_pills"
+            android:icon="@drawable/pills"
+            android:title="Take my medicines" />
+    </group>
+    <!--   </menu>
+   </item>-->
+
+
+    <item android:title="People i trust">
+        <menu>
+            <item
+                android:id="@+id/nav_Pictures"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Pictures" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Get in touch" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,103 @@
+{
+  "project_info": {
+    "project_number": "56244534058",
+    "project_id": "alzheimermate-1509888426657"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56244534058:android:66c171b7f38c68e4",
+        "android_client_info": {
+          "package_name": "com.rym.benjmaa.alzheimermate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56244534058-jeed8hmiidde49ukorpkghr4ccn207et.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rym.benjmaa.alzheimermate",
+            "certificate_hash": "0dac24d1c23bdbe7419af46bb47f349e5b85d665"
+          }
+        },
+        {
+          "client_id": "56244534058-8bifsdgo8hr1ci7g5g71uioap4t016jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnwKTg7bMfnx9EfBVDmY0OcA6mxMOihA0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56244534058:android:13236c55964dd49d",
+        "android_client_info": {
+          "package_name": "com.sim.alzheimermate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56244534058-58np02ms19n6ha21uah9fecgprmbg3ih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sim.alzheimermate",
+            "certificate_hash": "f766539be1fec53a4f21880fbf147d443bf194f0"
+          }
+        },
+        {
+          "client_id": "56244534058-q48d06eq3mbb0ia6b0n46dlika04hl29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sim.alzheimermate",
+            "certificate_hash": "05b39ac23f4786cd46f7dbc3913cfc0e73473810"
+          }
+        },
+        {
+          "client_id": "56244534058-ps06sc402jhee1tjiesfo2bb1dcc9lb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sim.alzheimermate",
+            "certificate_hash": "306cc16715fb5d2d834809c06db9d6e82f43e593"
+          }
+        },
+        {
+          "client_id": "56244534058-8bifsdgo8hr1ci7g5g71uioap4t016jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnwKTg7bMfnx9EfBVDmY0OcA6mxMOihA0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

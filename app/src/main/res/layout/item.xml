@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:alpha="0.9"
+    android:orientation="vertical">
+
+    <com.sim.alzheimermate.Utils.CustomImageView
+        android:id="@+id/image_med_G"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/nom_med_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_med_G"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0.7"
+        android:background="@color/primaryDarkColor"
+        android:gravity="center|bottom"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="15sp" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_responsable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sim.alzheimermate.Activities.ResponsableActivity">
+    <!-- <android.support.v4.view.ViewPager
+         android:id="@+id/viewPagerMenuA"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="56dp" />
+     <eu.long1.spacetablayout.SpaceTabLayout
+         android:id="@+id/spaceTabLayoutA"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:number_of_tabs="three"
+         app:starting_position="two"
+         app:tab_color="@color/colorPrimaryDark"
+         app:button_color="#fff"
+         app:text_color="#61FFFFFF"
+         app:icon_two="@drawable/pills5"
+         app:icon_one="@drawable/family3"
+         app:icon_three="@drawable/house6"
+         app:text_one=""
+         app:text_two=""
+         app:text_three=""
+         />-->
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar2"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/primaryDarkColor"
+        app:bb_activeTabColor="@color/primaryTextColor"
+        app:bb_behavior="shifting"
+        app:bb_inActiveTabAlpha="0.3"
+        app:bb_inActiveTabColor="@color/primaryTextColor"
+        app:bb_tabXmlResource="@xml/settings_bottom_bar"
+        app:bb_titleTextAppearance="@style/CustomTitleTextAppearance"
+        app:bb_titleTypeFace="fonts/GreatVibes-Regular.otf" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logout" />
+
+
+</RelativeLayout>

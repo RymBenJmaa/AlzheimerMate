@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sim.alzheimermate.Fragments.MedFragment">
+
+    <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit_dp1"
+        style="@style/SpinKitView.Large.Circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/primaryDarkColor" />
+
+    <jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout
+        android:id="@+id/main_swipe_med"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="55dp"
+
+        >
+
+        <GridView
+            android:id="@+id/gridView_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="2dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:columnCount="2"
+            android:drawSelectorOnTop="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:horizontalSpacing="2dp"
+            android:numColumns="2"
+            android:paddingBottom="65dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp" />
+    </jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout>
+
+</FrameLayout>

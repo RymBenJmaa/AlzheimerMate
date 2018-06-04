@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/framefam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sim.alzheimermate.Fragments.FamilyFragment">
+
+    <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit_dp"
+        style="@style/SpinKitView.Large.Circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="@color/primaryDarkColor" />
+
+    <jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout
+        android:id="@+id/main_swipe_family"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="55dp">
+        <!-- <ListView
+             android:id="@+id/listviewper"
+             android:divider="@color/colorPrimaryDark"
+             android:dividerHeight="3dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="50dp">
+         </ListView>-->
+
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:clickable="true"
+            android:drawSelectorOnTop="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:numColumns="1"
+            android:paddingBottom="65dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp" />
+    </jp.co.recruit_lifestyle.android.widget.WaveSwipeRefreshLayout>
+</FrameLayout>
